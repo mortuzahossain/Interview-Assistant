@@ -10,6 +10,8 @@ public class Details extends AppCompatActivity {
 
     Button cBtn,cppBtn;
 
+    String data;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +26,8 @@ public class Details extends AppCompatActivity {
             public void onClick(View v) {
                 // GO to Question Activity
                 Intent i = new Intent(getApplicationContext(),Questions.class);
+                data = getString(R.string.cquestions);
+                i.putExtra("STRING_ID",data);
                 startActivity(i);
             }
         });

@@ -18,8 +18,8 @@
 
 
             <TextView
+                android:id="@+id/showQuestion"
                 android:layout_width="match_parent"
-                android:text="@string/cquestions"
                 android:layout_height="match_parent" />
 
         </LinearLayout>
