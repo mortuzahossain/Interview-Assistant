@@ -4,12 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Details">
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"/>
 
 
     <Button
-        android:id="@+id/cse"
-        android:layout_width="match_parent"
+        android:id="@+id/buttoncpp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CSE" />
+        android:text="C++"/>
+
+    
 </LinearLayout>

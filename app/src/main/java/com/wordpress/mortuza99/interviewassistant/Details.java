@@ -6,22 +6,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class Details extends AppCompatActivity {
 
-    Button cseBtn;
+    Button cBtn,cppBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_details);
 
-        cseBtn = findViewById(R.id.cse);
+        cBtn = findViewById(R.id.buttonc);
+        cppBtn = findViewById(R.id.buttoncpp);
 
-        cseBtn.setOnClickListener(new View.OnClickListener() {
+
+        cBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // CSE Activity
-                startActivity(new Intent(getApplicationContext(),Details.class));
+                // GO to Question Activity
+                Intent i = new Intent(getApplicationContext(),Questions.class);
+                startActivity(i);
             }
         });
 

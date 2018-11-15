@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Interview Assistant</string>
+
+    <string name="cquestions">
+        Dear readers, these C Programming Interview Questions have been designed \n specially to get you acquainted with the nature of questions you may encounter during your interview for the subject of C Programming. As per my experience good interviewers hardly plan to ask any particular question during your interview, normally questions start with some basic concept of the subject and later they continue based on further discussion and what you answer − What is a pointer on pointer? It’s a pointer variable which can hold the address of another pointer variable. It de-refers twice to point to the data held by the designated pointer variable. Eg: int x = 5, Therefore ‘x’ can be accessed by **q. Distinguish between malloc()  calloc() memory allocation. Both allocates memory from heap area/dynamic memory. By default calloc fills the allocated memory with 0’s. What is keyword auto for? By default every local variable of the function is automatic (auto). In the below function both the variables ‘i’ and ‘j’ are automatic variables.
+    </string>
+
+
 </resources>
